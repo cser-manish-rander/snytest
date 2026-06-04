@@ -14,9 +14,9 @@ This is a simple Node.js project containing highly vulnerable dependencies, desi
    npm start
    ```
 
-## Included Vulnerabilities
+## Dependencies
 
-- **lodash@4.17.15**: Vulnerable to Prototype Pollution.
-- **minimist@1.2.0**: Vulnerable to Prototype Pollution.
-- **express@4.16.0**: Contains multiple security issues (e.g., path traversal, open redirect in dependencies/older versions).
-- **axios@0.18.0**: Vulnerable to Server-Side Request Forgery (SSRF) and others.
+- **lodash@^4.17.21**: Secured against Prototype Pollution.
+- **minimist@^1.2.8**: Secured against Prototype Pollution.
+- **express@^4.21.1**: Updated to a safe, modern version.
+- **axios@^1.7.9**: Updated to a safe, modern version.
